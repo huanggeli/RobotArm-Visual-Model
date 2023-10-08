@@ -2,12 +2,12 @@
 
 该项目通过vue框架结合js实现了一个网页端的3轴机械臂建模，并支持实时渲染
 
-##Getting Start
+## Getting Start
 Open terminal and run the following command
 `npm run dev`
 After click the link shown in terminal,you will see the model in the website as below:
 ![](/doc-img/display-result.png)
-##核心代码说明
+## 核心代码说明
 该项目使用 three.js 构建 3D 机械臂  
 `BaseManager.js` 包含了机械臂的建模,如果需要修改机械臂样式，请根据该文件中的代码注释进行修改
 `Robot3d\index.vue` 实现 3D 场景的呈现并调用 BaseManager 类进行渲染
